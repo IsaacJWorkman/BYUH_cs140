@@ -7,6 +7,14 @@
   }
 }
 
+html {
+  filter: invert(100%);
+}
+
+img, video, iframe {
+  filter: invert(100%) hue-rotate(180deg);
+}
+
 /*h1 {
     color:magenta;
 }
