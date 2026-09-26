@@ -1,8 +1,17 @@
-h1 {
+@media (prefers-color-scheme: dark) {
+  html {
+    filter: invert(100%) hue-rotate(180deg);
+  }
+  img, video, iframe {
+    filter: invert(100%) hue-rotate(180deg);
+  }
+}
+
+/*h1 {
     color:magenta;
 }
 
 img {
     transform: rotate(90);
     max-width:100%;
-}
+}*/
