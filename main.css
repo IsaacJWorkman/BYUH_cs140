@@ -1,18 +1,10 @@
-@media (prefers-color-scheme: dark) {
-  html {
-    filter: invert(100%) hue-rotate(180deg);
-  }
-  img, video, iframe {
-    filter: invert(100%) hue-rotate(180deg);
-  }
+html, body {
+  background-color: #031403;
+  color: #fff;
 }
 
-html {
-  filter: invert(100%);
-}
-
-img, video, iframe {
-  filter: invert(100%) hue-rotate(180deg);
+a {
+    color: #8ab4f8;
 }
 
 /*h1 {
