@@ -4,6 +4,12 @@ html, body {
   text-align: center;
 }
 
+ul {
+    display:flexbox;
+    list-style-type: none;
+    padding: 0;
+}
+
 a {
     color: #8ab4f8;
 }
