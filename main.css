@@ -3,7 +3,10 @@ html, body {
   color: #fff;
   text-align: center;
 
+  /* add background image here */
   background-image: url("media-main/backing.jpg");
+  rotate: 90;
+  filter: invert(1);
 }
 
 ul,ol {
@@ -24,10 +27,5 @@ a {
 /*
 h1 {
     color:magenta;
-}
-
-img {
-    transform: rotate(90);
-    max-width:100%;
 }
 */
