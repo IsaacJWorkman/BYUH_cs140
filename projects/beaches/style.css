@@ -23,7 +23,7 @@ a:hover::after{
 }
 
 a:visited {
-    color: lightblue;
+    color: #3e4f3e;
 }
 
 span {
