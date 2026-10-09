@@ -2,11 +2,19 @@ html, body {
   background-color: #031403;
   color: #fff;
   text-align: center;
+}
 
-  /* add background image here */
+/* background image on its own layer so the invert filter doesn't affect the text */
+body::before {
+  content: "";
+  position: fixed;
+  inset: 0;
+  z-index: -1;
   background-image: url("media-main/backing.jpg");
-  rotate: 90;
-  filter: invert(1);
+  background-size: cover;
+  background-position: center;
+  filter: invert(1);   /* white page + black lines -> black page + white lines */
+  opacity: 0.4;        /* dim the lines so the white text stays readable */
 }
 
 ul,ol {
