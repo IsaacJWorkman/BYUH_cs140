@@ -5,6 +5,29 @@ html {
 body {
     color: #fff;
     text-align: center;
+
+    /* stack header/main/footer and make the page at least as tall as the screen */
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    margin: 0;
+}
+
+/* main takes up the leftover space, pushing the footer to the bottom */
+main {
+    flex: 1;
+}
+
+header,
+main {
+    padding: 0 8px;
+}
+
+/* the browser centers <hr> with auto margins, which would shrink it to nothing in a flex column */
+body > hr {
+    width: 100%;
+    margin-left: 0;
+    margin-right: 0;
 }
 
 /* background image on its own layer so the invert filter doesn't affect the text */
