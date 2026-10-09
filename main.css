@@ -42,6 +42,11 @@ main > ol {
 a {
     color: #8ab4f8;
 }
+
+footer{
+    background-color: #3e4f3e;
+    color: whitesmoke;
+}
 /*
 h1 {
     color:magenta;
