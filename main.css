@@ -1,19 +1,23 @@
-html, body {
-  color: #fff;
-  text-align: center;
+html {
+    background-color: #031403;
+}
+
+body {
+    color: #fff;
+    text-align: center;
 }
 
 /* background image on its own layer so the invert filter doesn't affect the text */
 body::before {
-  content: "";
-  position: fixed;
-  inset: 0;
-  z-index: -1;
-  background-image: url("media-main/backing.jpg");
-  background-size: cover;
-  background-position: center;
-  filter: invert(1);   /* white page + black lines -> black page + white lines */
-  opacity: 0.4;        /* dim the lines so the white text stays readable */
+    content: "";
+    position: fixed;
+    inset: 0;
+    z-index: -1;
+    background-image: url("media-main/backing.jpg");
+    background-size: cover;
+    background-position: center;
+    filter: invert(1);   /* white page + black lines -> black page + white lines */
+    opacity: 0.4;        /* dim the lines so the white text stays readable */
 }
 
 ul,ol {
@@ -25,8 +29,8 @@ ul,ol {
 /* center the outer list as a block; nested lists keep their normal left indent */
 main > ul,
 main > ol {
-  margin-left: auto;
-  margin-right: auto;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 /*ul {
