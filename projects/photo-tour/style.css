@@ -94,7 +94,14 @@ figure {
     padding: 20px;
     width: fit-content;
     max-width: 80%;
+}
 
+figure figcaption {
+
+    background-color: #333;
+    border-radius: 0 0 10px 10px;
+    color: aqua;
+    text-align: center;
 }
 
 footer{
