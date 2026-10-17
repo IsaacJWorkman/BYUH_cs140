@@ -10,6 +10,12 @@ html {
     min-height: 100%;
 }
 
+body {
+    min-height: 100vh;
+    display: flex;
+    direction: column;
+}
+
 h2 {
     font-family: 'Seaweed Script';
     font-size: 8rem;
@@ -63,6 +69,7 @@ footer{
     background-color: #333;
     border-radius:15px 15px 0 0;
     color: whitesmoke;
+    margin-top: auto;
     padding: 1rem;
     text-align: left;
 }
