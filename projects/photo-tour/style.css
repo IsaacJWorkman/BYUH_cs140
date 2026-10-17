@@ -77,6 +77,13 @@ a:hover {
     max-width: 80%;
 }
 
+main div ul li::marker {
+    list-style: none;
+    content: url(photos/arrow.png);
+    background-repeat: no-repeat;
+    background-size: 10px 5px;
+}
+
 footer{
     background-color: #333;
     border-radius:15px 15px 0 0;
