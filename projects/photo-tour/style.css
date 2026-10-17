@@ -31,3 +31,8 @@ body::before {
     margin: 5px;
     border-radius: 10px;
 }
+
+a:active {
+    background-color: whitesmoke;
+    opacity: 0.9;
+}
