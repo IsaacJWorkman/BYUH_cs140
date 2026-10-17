@@ -4,6 +4,7 @@ html {
     background-image: url("photos/wave-back.png");
     background-color: rgba(0,255,255, 0.4);
     background-blend-mode:lighten;
+    background-size: 500px 300px;
     background-repeat: round;
 
     min-height: 100%;
