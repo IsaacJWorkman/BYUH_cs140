@@ -69,8 +69,12 @@ a:hover {
     background-color: rgba(150, 255, 255, 0.9);
     border-radius:15px;
     border:#333 solid 5px;
+    box-sizing: content-box;
     font-size: 1.5rem;
-    padding: 0 10%;
+    margin: 0 auto;
+    padding: 20px;
+    width: fit-content;
+    max-width: 80%;
 }
 
 footer{
