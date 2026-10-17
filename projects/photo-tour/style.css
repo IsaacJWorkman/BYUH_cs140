@@ -14,6 +14,7 @@ h2 {
     font-family: 'Seaweed Script';
     font-size: 8rem;
     color: black;
+    margin-top: 0;
     text-align: center;
     text-shadow: 0 0 2px rgb(0,255,255);
 }
@@ -41,7 +42,8 @@ h2 {
 }
 
 .navbar li a.current {
-    text-decoration: underline;
+    background-color: rgba(0,255,255, 0.4);
+    border-radius: 10px;
 }
 
 .home-button {
