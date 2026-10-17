@@ -5,6 +5,8 @@ html {
     background-color: rgba(0,255,255, 0.4);
     background-blend-mode:lighten;
     background-repeat: round;
+
+    min-height: 100%;
 }
 
 h2 {
