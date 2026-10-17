@@ -1,0 +1,24 @@
+html {
+    background-color: aqua;
+    opacity: 0.4;
+}
+
+body::before {
+    background-image: url("photos/wave-back1.svg");
+    background-repeat: round;
+}
+
+.navbar {
+    background-color: #333;
+    display: flex;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.navbar li a {
+    color: white;
+    display: block;
+    padding: 14px 16px;
+    text-decoration: none;
+}
