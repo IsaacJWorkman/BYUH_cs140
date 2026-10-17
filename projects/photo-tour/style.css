@@ -96,6 +96,11 @@ figure {
     max-width: 80%;
 }
 
+figure img {
+    display: block;
+    max-width: 100%;
+}
+
 figure figcaption {
     background-color: #333;
     border-radius: 0 0 10px 10px;
@@ -103,6 +108,9 @@ figure figcaption {
     padding: 10px;
     margin-top: 0;
     text-align: center;
+    width: 0;
+    min-width: 100%;
+    box-sizing: border-box;
 }
 
 footer{
