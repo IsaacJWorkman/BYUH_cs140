@@ -37,6 +37,10 @@ h2 {
     margin: auto;
 }
 
+.navbar li a.current {
+    text-decoration: underline;
+}
+
 .home-button {
     background-color:#000;
     opacity: 0.9;
@@ -48,8 +52,4 @@ a:hover {
     border-radius: 10px;
     font-family: 'Seaweed Script';
     font-weight: bold;
-}
-
-a:active {
-    text-decoration: underline;
 }
