@@ -16,7 +16,7 @@ body {
     flex-direction: column;
 }
 
-h1 {
+header h1 {
     font-family: 'Seaweed Script';
     font-size: 8rem;
     color: black;
