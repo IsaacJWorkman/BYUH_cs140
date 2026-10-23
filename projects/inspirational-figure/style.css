@@ -18,7 +18,7 @@ main {
     background-color: #333;
     display: flex;
     list-style-type: none;
-    margin: 0 auto;
+    margin: 5px auto;
     padding: 5px;
     border-radius: 15px;
     width: fit-content;
