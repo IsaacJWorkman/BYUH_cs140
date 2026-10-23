@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="style.css" rel="stylesheet">
+</head>
+<body>
+    <div class="wrapper">
+        <header>
+            <nav>
+                <ul>
+                    <li><a href="#">1</a></li>
+                    <li><a href="#">2</a></li>
+                    <li><a href="#">3</a></li>
+                </ul>
+            </nav>
+        </header>
+
+        <main>
+            <figure>
+                <img src="#" alt="">
+                <figcaption></figcaption>
+            </figure>
+
+            <blockquote>
+            </blockquote>
+        </main> 
+
+        <footer>
+            <p><small>All rights reserved<br>For usage, <a href="mailto:isaacjworkman@gmail.com">contact</a> site administator<br>&copy; 2026 Isaac Workman</small></p>
+        </footer>
+
+    </div>
+</body>
+</html>
