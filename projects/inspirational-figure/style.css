@@ -9,11 +9,20 @@ main {
 }
 
 h2 {
+    color: whitesmoke;
     font-family: 'Petit Formal Script', Cursive;
+    margin-bottom: 0;
+    text-shadow: #fff 1px 2px 3px;
 }
 
 h3 {
-    color: grey;
+    color: whitesmoke;
+    margin-left: 2rem;
+}
+
+.page-title {
+    background-color: red;
+    padding: 1rem;
 }
 
 .wrapper {
