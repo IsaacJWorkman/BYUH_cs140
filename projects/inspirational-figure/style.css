@@ -99,8 +99,10 @@ blockquote footer {
 
 footer {
     background-image: url('footer-backing.jpg');
-    background-size: fit;
+    background-clip: border-box;
+    background-origin: border-box;
     background-position: center;
+    background-size: fit;
     background-repeat: no-repeat;
 
     padding: 0 10px;
