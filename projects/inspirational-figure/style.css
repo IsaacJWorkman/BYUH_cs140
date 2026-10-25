@@ -75,12 +75,32 @@ h3 {
     text-shadow: 0 0 1px white;
 }
 
+figure {
+    height: 400px;
+    width: 800px;
+}
+
 figcaption {
     font-style: italic;
 }
 
+.background-info, .ministry-info{
+    border: 2px solid rgb(105, 17, 17);
+}
+
 span {
     font-weight: bold;
+}
+
+blockquote footer {
+    background: none;
+}
+
+footer {
+    background-image: url('footer-backing.jpg');
+    background-size: fit;
+    background-position: center;
+    background-repeat: no-repeat;
 }
 
 footer a:hover {
