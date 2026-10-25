@@ -85,6 +85,7 @@ figcaption {
 }
 
 .background-info, .ministry-info{
+    padding: 2px;
     border: 2px solid rgb(105, 17, 17);
 }
 
