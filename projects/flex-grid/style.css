@@ -16,9 +16,10 @@ header {
     color: white;
     padding: 20px;
     text-align: center;
+    font-size: 2rem;
 }
 
-.navbar{
+.navbar {
     align-content: center;
     border-radius: 15px;
     box-shadow: inset 0 0 5px black;
@@ -27,6 +28,7 @@ header {
     margin: 10px 0;
     padding: 15px 8px;
     width: fit-content;
+    flex-wrap: nowrap;
 }
 
 .navbar a {
@@ -37,6 +39,30 @@ header {
     color: black;
     margin: 2px;
     padding: 10px;
+    text-decoration: none;
+}
+
+@media ( max-width: 400px ) {
+    .navbar {
+        all: unset;
+
+        display: flex;
+        flex-direction: column;
+
+        border-bottom: 1px solid black;
+    }
+
+    .navbar a {
+        all: unset;
+    }
+}
+
+.navbar a:hover {
+    text-decoration: underline;
+}
+
+.navbar a:active {
+    box-shadow: inset 0 0 1px 1px black;
 }
 
 .content-bar {
@@ -48,8 +74,9 @@ header {
 }
 
 aside {
-    border: black;
+    border-right: 1px solid white;
     flex:1;
+    padding: 5px;
 }
 
 main {
@@ -58,16 +85,26 @@ main {
 
 .card-box {
     display: grid;
-    grid-template-columns: repeat(3, 1fr);
+    grid-template-columns: repeat(2, 1fr);
     grid-template-rows: min-content;
 }
 
-hr {
-    color: white;
+.card-box div {
+    border: 0.5px white solid;
+    box-shadow: 1px 1px 5px 1px white;
+    margin: 5px;
+    padding: 2px;
+    text-align: center;
 }
+
 
 footer {
     color: white;
     background-color: #A51931;
+    margin-top: 40px;
     padding: 10px;
+}
+
+footer a {
+    color: gold;
 }
