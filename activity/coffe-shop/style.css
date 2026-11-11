@@ -1,0 +1,12 @@
+html {
+    background-color: beige;
+}
+
+.menu {
+    display: flex;
+    
+}
+
+.item {
+    flex: 1;
+}
