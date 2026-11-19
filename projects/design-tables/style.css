@@ -146,6 +146,7 @@ footer a {
     }
 
     aside {
+        margin-left: 1rem;
         border-left: 1px solid #150811;
         padding: 1rem;
     }
