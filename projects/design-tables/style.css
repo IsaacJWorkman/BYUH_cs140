@@ -1,0 +1,152 @@
+@import url('https://fonts.googleapis.com/css2?family=Krona+One&display=swap');
+
+html, body {
+    background-color: #01BAEF;
+    height: 100%;    
+}
+
+body {
+    margin: 0;
+}
+
+.wrapper {
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    justify-self: center;
+    max-width: 80vw;
+    min-width: 80vw;
+    min-height: 100vh;
+    box-shadow: 0 0 5px 1px gray;
+}
+
+h1 {
+    background-color: #26081C;
+    color: white;
+    font-family: 'Krona-one', sans-serif;
+    margin: 0;
+    padding: 1rem;
+    text-align: center;
+}
+
+.big-x {
+    font-size: 3.5rem;
+    vertical-align: -0.5rem;
+}
+
+.nav ul{
+    background-color: #380036;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    justify-self: left;
+    margin: 0;
+    margin-bottom: 2rem;
+    padding: 1rem;
+    width: 100%;
+}
+
+.nav ul li {
+    border: 1px solid gray;
+    list-style-type: none;
+    padding-left: 4rem;
+    padding-right: 4rem;
+    max-width: fit-content;
+}
+
+.nav ul li a {
+    text-decoration: none;
+    color: white;
+}
+
+.container {
+    margin: 0 1rem;
+}
+
+main {
+    flex: 3;
+    min-width: 0;
+}
+
+.table-wrapper {
+    width: 100%;
+    overflow-x: auto;
+    -webkit-overflow-scrolling: auto;
+}
+
+table {
+    border-collapse: collapse;
+}
+
+caption {
+    background-Color: #380036;
+    border: 1px solid #150811;
+    border-radius: 5px 5px 0 0 ;
+    color: white;
+    font-size: 2rem;
+    padding-left: 1rem;
+    text-align: left;
+}
+
+thead {
+    background-color: #0CBABA;
+}
+
+th, td {
+    padding: 1rem;
+    border: 1px solid #150811;
+}
+
+th {
+    background-color: blue;
+    color: white;
+}
+
+tbody tr:nth-child(even) {
+    background-color: #01BAEF;
+
+}
+
+aside {
+    color: #150811;
+    flex: 1;
+}
+
+footer {
+    background-color: #380036;
+    border-top: 1px solid #150811;
+    color: white;
+    margin-top: auto;
+    padding: 0.5rem;
+}
+
+footer a {
+    color: lightblue;
+}
+
+@media ( min-width:700px ) {
+    .nav ul {
+        flex-direction: row;
+        justify-content: space-around;
+    }
+
+    .nav ul li {
+        all: unset;
+
+    }
+
+    .nav ul li a {
+        text-decoration: none;
+    }
+
+    .container {
+        display: flex;
+        flex-direction: row;
+        padding: 1rem;
+    }
+
+    aside {
+        border-left: 1px solid #150811;
+        padding: 1rem;
+    }
+}
