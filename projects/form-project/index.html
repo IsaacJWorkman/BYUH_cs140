@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form Project</title>
+    <link href="style.css" rel="stylesheet">
+</head>
+<body>
+    <div class="wrapper">
+    <header><h1>Order Form</h1></header>
+
+    <nav>
+        <a href="#">Home</a>
+        <a href="#">link1</a>
+        <a href="#">link2</a>
+    </nav>
+
+    <main>
+        <form action="#">
+            <fieldset>
+                <legend>YOUR ORDER</legend>
+                <div class="form-row">
+                    <label for="firstNameInput">First Name: </label>
+                    <input type="text" name="firstName" id="firstNameInput">
+                </div>
+                <div class="form-row">
+                    <label for="lastNameInput">Last Name: </label>
+                    <input type="text" name="lastName" id="lastNameInput">
+                </div>
+                <div class="form-row">
+                    <label for="phoneInput">Phone: </label>
+                    <input type="tel" name="tel" id="phoneInput">
+                </div>
+                <div class="form-row">
+                    <label for="emailInput">Email: </label>
+                    <input type="email" name="email" id="emailInput">
+                </div>
+                <div class="form-row">
+                    <label for="birthdayInput">Birthday: </label>
+                    <input type="date" name="birthday" id="birthdayInput">
+                </div>
+                <div class="check-row">
+                    <div class="spacer">Address Type: </div>
+                    <label><input type="radio" name="addressType" value="home" checked>Home</label>
+                    <label><input type="radio" name="addressType" value="business">Business</label>
+                </div>
+                <div class="form-row">
+                    <label for="addressLine1">Address Line 1: </label>
+                    <input type="text" name="addressLine1" id="addressLine1">
+                </div>
+                <div class="form-row">
+                    <label for="addressLine2">Address Line 2: </label>
+                    <input type="text" name="addressLine2" id="addressLine2">
+                </div>
+                <div class="form-row">
+                    <div class="spacer"></div>
+                    <input type="submit" value="Submit Order">
+                </div>
+            </fieldset>
+        </form>
+    </main>
+
+    <footer>
+        <p><small>&copy;2026 Isaac Workman</small></p>
+    </footer>
+    </div>
+</body>
+</html>
